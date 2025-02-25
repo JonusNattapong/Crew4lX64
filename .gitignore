@@ -94,12 +94,6 @@ ipython_config.py
 #   install all needed dependencies.
 #Pipfile.lock
 
-# UV
-#   Similar to Pipfile.lock, it is generally recommended to include uv.lock in version control.
-#   This is especially recommended for binary packages to ensure reproducibility, and is more
-#   commonly ignored for libraries.
-#uv.lock
-
 # poetry
 #   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
 #   This is especially recommended for binary packages to ensure reproducibility, and is more
@@ -167,5 +161,77 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# PyPI configuration file
-.pypirc
+Crawl4AI.egg-info/
+Crawl4AI.egg-info/*
+crawler_data.db
+.vscode/
+.tests/
+.test_pads/
+test_pad.py
+test_pad*.py
+.data/
+Crawl4AI.egg-info/
+
+requirements0.txt
+a.txt
+
+*.sh
+.idea
+docs/examples/.chainlit/
+docs/examples/.chainlit/*
+.chainlit/config.toml
+.chainlit/translations/en-US.json
+
+local/
+.files/
+
+a.txt
+.lambda_function.py
+ec2*
+
+update_changelog.sh
+
+.DS_Store
+docs/.DS_Store
+tmp/
+test_env/
+**/.DS_Store
+**/.DS_Store
+
+todo.md
+todo_executor.md
+git_changes.py
+git_changes.md
+pypi_build.sh
+git_issues.py
+git_issues.md
+
+.next/
+.tests/
+# .issues/
+.docs/
+.issues/
+.gitboss/
+todo_executor.md
+protect-all-except-feature.sh
+manage-collab.sh
+publish.sh
+combine.sh
+combined_output.txt
+.local
+.scripts
+tree.md
+tree.md
+.scripts
+.local
+.do
+/plans
+plans/
+
+# Codeium
+.codeiumignore
+todo/
+
+# windsurf rules
+.windsurfrules
+.private
